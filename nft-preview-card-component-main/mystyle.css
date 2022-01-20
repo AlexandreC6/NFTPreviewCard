@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Création de variables
+	Call the variable -> var(--soft-blue)*/
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+	--very-dark-blue-main: hsl(217, 54%, 11%);
+	--very-dark-blue-card: hsl(216, 50%, 16%);
+	--very-dark-blue-line: hsl(215, 32%, 27%);
+	--white: hsl(0, 0%, 100%);
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Outfit', sans-serif;
+	background-color: var(--very-dark-blue-main);
+}
+
+.allPage {
+	display: flex;
+	place-content:  center;
+}
+
+.card {
+	background-color: var(--very-dark-blue-card);
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 350px;
+	height: 600px;
+}
+
+.cube_img img {
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+
+.cube_img {
+	margin: 25px;
+}
+
+h2 {
+	color: var(--white);
+	font-weight: 400;
+	margin: 0 20px 20px 20px;
+}
+
+.subtitle1 {
+	color: var(--soft-blue);
+}
+
+.eth {
+	color: var(--cyan);
+}
+
+.days {
+	color: var(--soft-blue);
+}
+
+.credits {
+	color: var(--soft-blue);
+}
+
+.credits span {
+	color: var(--white);
+}
