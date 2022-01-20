@@ -23,11 +23,12 @@ body {
 .allPage {
 	display: flex;
 	place-content:  center;
+	margin-top: 50px;
 }
 
 .card {
 	background-color: var(--very-dark-blue-card);
-	border: 1px solid black;
+	border: 0 solid black;
 	border-radius: 10px;
 	width: 350px;
 	height: 600px;
